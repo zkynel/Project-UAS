@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Pacifico&family=Roboto+Slab&display=swap');
+* {
+  font-family: 'Roboto Slab', serif;
+}
+body {
+  background: #ecfffd;
+}
+
+h1 {
+  font-family: 'Pacifico', 'cursive';
+  color: #0f3012;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'DM Serif Display', serif;
+}
+
+/* Navbar */
+#navbar nav {
+  background: #6ab191;
+}
+.nav-item a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.nav-item a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+.nav-item span {
+  color: #fff;
+}
+/* Akhir Navbar */
+
+/* Header */
+.header {
+  background: #bcead5;
+}
+/* Akhir Header */
+
+/* Main Page */
+#main p {
+  text-align: justify;
+}
+#main .unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#main img {
+  border-radius: 20px;
+}
+#main .dokter h5 {
+  background: #00626f;
+  color: #fff;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+/* Akhir Main Page */
+
+/* Profil Dokter */
+#profil nav {
+  margin: 0;
+  padding: 10px;
+  background: #eceeef;
+  border-radius: 10px;
+}
+#profil nav ol {
+  margin: 0;
+}
+#profil .unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#profil img {
+  border-radius: 20px;
+}
+/* Akhir Profil Dokter */
+
+/* Layanan */
+#layanan nav {
+  margin: 0;
+  padding: 10px;
+  background: #eceeef;
+  border-radius: 10px;
+}
+#layanan nav ol {
+  margin: 0;
+}
+#layanan p {
+  text-align: justify;
+}
+#layanan .learn-btn {
+  padding: 5px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+#layanan .learn-btn:hover {
+  color: #198754;
+  background: #fff;
+}
+/* Akhir Layanan */
+
+/* Booking */
+#booking nav {
+  margin: 0;
+  padding: 10px;
+  background: #eceeef;
+  border-radius: 10px;
+}
+#booking nav ol {
+  margin: 0;
+}
+#booking .booking-span {
+  width: 200px;
+}
+/* Akhir Booking */
+
+/* Testimoni */
+#testimoni nav {
+  margin: 0;
+  padding: 10px;
+  background: #eceeef;
+  border-radius: 10px;
+}
+#testimoni nav ol {
+  margin: 0;
+}
+#testimoni .testi-card {
+  width: 20rem;
+  height: 20rem;
+  background: #fff;
+  border-top: 4px solid #93c594;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+#testimoni .testi-card p {
+  margin: 0;
+}
+/* Akhir Testimoni */
+
+/* Our Team */
+#ourteam nav {
+  margin: 0;
+  padding: 10px;
+  background: #eceeef;
+  border-radius: 10px;
+}
+#ourteam nav ol {
+  margin: 0;
+}
+#ourteam h2 {
+  margin-bottom: 20px;
+}
+#ourteam .roles {
+  color: #76828a;
+}
+#ourteam i {
+  color: #198754;
+}
+/* Akhir Our Team */
+
+/* Footer */
+footer {
+  background: #bcead5;
+  color: #1b5e20;
+}
+/* Akhir Footer */
+
+/* @media (max-width: 768px){} */
+@media (max-width: 643px) {
+  /* Navbar Media Query */
+  .nav-item span {
+    visibility: hidden;
+    display: none;
+  }
+  /* Akhir Navbar Media Query */
+
+  /* Main Page Media Query */
+  #main img {
+    margin-top: 20px;
+  }
+  /* #main h5 {
+    margin: 0 2em;
+  } */
+  /* Akhir Main Page Media Query */
+
+  /* Layanan Media Query */
+  #layanan .learn-btn {
+    margin-bottom: 25px;
+  }
+  /* Akhir Layanan Media Query */
+}

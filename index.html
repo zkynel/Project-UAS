@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Fontawesome & Bootstrap Icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <title>Login - Hello Dental Center</title>
+  </head>
+  <body>
+    <div class="center">
+      <div class="img"></div>
+      <h1>Welcome to HDC</h1>
+      <form action="dashboard">
+        <div class="input-form">
+          <input id="exampleInputEmail1" type="text" required />
+          <span></span>
+          <label for="">Email</label>
+        </div>
+        <div class="input-form">
+          <input id="exampleInputPassword1" type="password" required />
+          <span></span>
+          <label for="">Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input onclick="check()" type="button" value="Sign In" />
+        <div class="signup-link">
+          <a href="registrasi.html">Registrasi User</a>
+        </div>
+      </form>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
